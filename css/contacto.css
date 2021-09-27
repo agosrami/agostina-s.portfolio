@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.banner {
+  height: 550px;
+}
+
+.form-control {
+  background: #F2F2F2;
+  border-radius: 10px;
+  border: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e0e0e0;
+}
+
+.banner {
+  margin-left: -40px;
+  margin-top: 4rem;
+}
+
+.banner .titulo_informacion {
+  margin-left: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*BOOSTRAP*/
+.parte_arriba {
+  margin-bottom: 3rem;
+  height: 2rem;
+  margin-left: 0%;
+}
+
+.parte_arriba .bajar_este {
+  margin-top: 4rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e0e0e0;
+}
+
+.comienzo_pagina {
+  margin-left: 3.7rem;
+}
+
+.inicio .inicio__titulo {
+  color: black;
+  font-size: 7rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: end;
+  margin-right: 3.2rem;
+  margin-top: 7rem;
+  margin-bottom: 1px;
+}
+
+.inicio .inicio__descripcion {
+  color: black;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: end;
+  margin-right: 3.2rem;
+}
+
+.work {
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+
+.work .titulo_work {
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.cards {
+  margin-bottom: 2rem;
+}
+
+.info {
+  margin-top: 30px;
+}
+
+.info .info__titulo {
+  text-transform: initial;
+  color: black;
+}
+
+.info .info__titulo:hover {
+  color: #613de4;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.footer p, .footer a, .footer i {
+  color: #686868;
+}
+
+.footer p, .footer a {
+  margin-left: 8.3rem;
+}
+
+.footer a:hover {
+  color: #613de4;
+}
+
+.cajas_inicio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 665px 100px;
+      grid-template-columns: 665px 100px;
+  margin-top: 8rem;
+}
+
+.cajas_inicio .hola_mundo {
+  width: 200px;
+  color: #000000;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 17px;
+}
+
+.cajas_inicio .hola_mundo02 {
+  width: 400px;
+  color: #000000;
+  font-weight: bolder;
+  text-align: end;
+}
+
+.cajas_inicio .hola_mundo03 {
+  width: 300px;
+  color: #000000;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 6rem;
+}
+
+.cajas_inicio .uade_type {
+  font-weight: normal;
+}
+
+.fondo_imagen {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/c4095973314503.5c05b4cc3da7a.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*# sourceMappingURL=contacto.css.map */

@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*BOOSTRAP*/
+.parte_arriba {
+  margin-bottom: 3rem;
+  height: 2rem;
+  margin-left: 0%;
+}
+
+.parte_arriba .bajar_este {
+  margin-top: 4rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e0e0e0;
+}
+
+.comienzo_pagina {
+  margin-left: 3.7rem;
+}
+
+.inicio .inicio__titulo {
+  color: black;
+  font-size: 7rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: end;
+  margin-right: 3.2rem;
+  margin-top: 10rem;
+  margin-bottom: 1px;
+}
+
+.inicio .inicio__descripcion {
+  color: black;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: end;
+  margin-right: 3.2rem;
+}
+
+.inicio .hola_mundo02 {
+  width: 600px;
+  color: #000000;
+  font-weight: normal;
+  text-align: end;
+  margin-left: 28.8rem;
+  margin-bottom: 15rem;
+}
+
+.footer {
+  background-color: black;
+  padding: 1rem;
+}
+
+.footer p, .footer a, .footer i {
+  color: #686868;
+}
+
+.footer p, .footer a {
+  margin-left: 8.3rem;
+}
+
+.footer a:hover {
+  color: #613de4;
+}
+
+.fondo_imagen {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/b1fe5073314503.5c05b4cc3d119.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*# sourceMappingURL=404.css.map */

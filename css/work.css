@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*BOOSTRAP*/
+.header {
+  margin-bottom: 4rem;
+  height: 2rem;
+  margin-top: 4rem;
+  margin-left: 0%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e0e0e0;
+}
+
+.comienzo_pagina {
+  margin-left: 3.7rem;
+}
+
+.inicio {
+  margin-bottom: 2rem;
+}
+
+.inicio .inicio__titulo {
+  color: #6134ca;
+  text-transform: uppercase;
+}
+
+.inicio .inicio__descripcion {
+  text-transform: lowercase;
+}
+
+.inicio .inicio__subtitulo {
+  color: black;
+  text-transform: initial;
+}
+
+.años {
+  margin-bottom: 2rem;
+}
+
+.años .años__titulo {
+  font-weight: bold;
+}
+
+.años .años__uno:hover {
+  color: #613de4;
+}
+
+.años .años__dos:hover {
+  color: #613de4;
+}
+
+.años .años__tres:hover {
+  color: #613de4;
+}
+
+.cards {
+  margin-bottom: 2rem;
+}
+
+.info {
+  margin-top: 30px;
+}
+
+.info .info__titulo {
+  text-transform: initial;
+  color: black;
+}
+
+.info .info__titulo:hover {
+  color: #613de4;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.footer p, .footer a, .footer i {
+  color: #686868;
+}
+
+.footer p, .footer a {
+  margin-left: 8.3rem;
+}
+
+.footer a:hover {
+  color: #613de4;
+}
+/*# sourceMappingURL=work.css.map */
