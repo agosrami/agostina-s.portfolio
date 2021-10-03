@@ -219,18 +219,38 @@ a {
 }
 
 .work {
-  margin-bottom: 2rem;
-  margin-top: 7rem;
+  margin-bottom: 0rem;
   margin-left: 1rem;
 }
 
 .work .titulo_work {
   font-weight: bolder;
   font-size: 17px;
+  margin-top: 7rem;
+}
+
+.work .subtitulo_work {
+  margin-bottom: 0px;
+}
+
+.hola_works {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6px 100px;
+      grid-template-columns: 6px 100px;
+  margin-left: 34rem;
+  margin-bottom: 3rem;
+}
+
+.hola_works .hola_titulo {
+  font-size: 6.3rem;
+  font-weight: bold;
+  margin-bottom: 0%;
+  color: #2b2b2b;
 }
 
 .cards {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .info {
@@ -297,6 +317,10 @@ a {
 
 .cajas_inicio .uade_type {
   font-weight: normal;
+}
+
+.carrusel_index {
+  margin-bottom: 6rem;
 }
 
 .fondo_imagen {

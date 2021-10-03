@@ -19,7 +19,6 @@
   .parte_arriba {
     margin-bottom: 3rem;
     height: 2rem;
-    margin-left: 0%;
     
     .bajar_este {
       margin-top: 4rem;
@@ -33,7 +32,7 @@
   }
 
   .comienzo_pagina {
-    margin-left: 3.7rem;
+    padding-left: 3.7rem;
   }
 
   .inicio {
@@ -43,7 +42,7 @@
             font-weight: bolder;
             text-transform: uppercase;
             text-align: end;
-            margin-right: 3.2rem;
+            padding-right: 3.2rem;
             margin-top: 7rem;
             margin-bottom: 1px;
         }
@@ -53,14 +52,14 @@
           font-weight: normal;
           text-transform: uppercase;
           text-align: end;
-          margin-right: 3.2rem;
+          padding-right: 3.2rem;
         }
   }
 
 
   .work{
       margin-bottom: 0rem;
-      margin-left: 1rem; 
+      padding-left: 1rem; 
 
       .titulo_work {
         font-weight: bolder;
@@ -75,13 +74,14 @@
   .hola_works {
     display: grid;
     grid-template-columns: 6px 100px;
-    margin-left: 34rem;
+
     margin-bottom: 3rem;
     .hola_titulo {
       font-size: 6.3rem;
       font-weight: bold;
       margin-bottom: 0%;
       color: #2b2b2b;
+      padding-left: 34.2rem;
     }
   }
 
@@ -101,22 +101,12 @@
         }
   }
   
+  .imagenes_work {
+    padding-bottom: 5rem;
+  }
+
   .footer {
-    background-color: black;
-    margin-top: 5rem;
-    padding: 1rem;
-
-    p, a, i{
-        color: #686868; 
-    }
-
-    p, a {
-      margin-left: 8.3rem; 
-    }
-
-    a:hover {
-        color: #613de4;
-    }
+    color: rgb(124, 124, 124);
   }
 
   .cajas_inicio {
@@ -163,7 +153,53 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
-  
 }
-  /*# sourceMappingURL=style.css.map */
+
+.fondo_work {
+  background-color: rgb(236, 231, 225);
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(0);
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+

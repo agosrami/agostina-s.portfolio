@@ -17,7 +17,6 @@ a {
 .parte_arriba {
   margin-bottom: 3rem;
   height: 2rem;
-  margin-left: 0%;
 }
 
 .parte_arriba .bajar_este {
@@ -29,7 +28,7 @@ a {
 }
 
 .comienzo_pagina {
-  margin-left: 3.7rem;
+  padding-left: 3.7rem;
 }
 
 .inicio .inicio__titulo {
@@ -38,7 +37,7 @@ a {
   font-weight: bolder;
   text-transform: uppercase;
   text-align: end;
-  margin-right: 3.2rem;
+  padding-right: 3.2rem;
   margin-top: 7rem;
   margin-bottom: 1px;
 }
@@ -48,12 +47,12 @@ a {
   font-weight: normal;
   text-transform: uppercase;
   text-align: end;
-  margin-right: 3.2rem;
+  padding-right: 3.2rem;
 }
 
 .work {
   margin-bottom: 0rem;
-  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 .work .titulo_work {
@@ -71,7 +70,6 @@ a {
   display: grid;
   -ms-grid-columns: 6px 100px;
       grid-template-columns: 6px 100px;
-  margin-left: 34rem;
   margin-bottom: 3rem;
 }
 
@@ -80,6 +78,7 @@ a {
   font-weight: bold;
   margin-bottom: 0%;
   color: #2b2b2b;
+  padding-left: 34.2rem;
 }
 
 .cards {
@@ -99,22 +98,12 @@ a {
   color: #613de4;
 }
 
+.imagenes_work {
+  padding-bottom: 5rem;
+}
+
 .footer {
-  background-color: black;
-  margin-top: 5rem;
-  padding: 1rem;
-}
-
-.footer p, .footer a, .footer i {
-  color: #686868;
-}
-
-.footer p, .footer a {
-  margin-left: 8.3rem;
-}
-
-.footer a:hover {
-  color: #613de4;
+  color: #7c7c7c;
 }
 
 .cajas_inicio {
@@ -161,5 +150,65 @@ a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.fondo_work {
+  background-color: #ece7e1;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  -webkit-filter: grayscale(1) brightness(0.5);
+          filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.column img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    -webkit-filter: grayscale(0) brightness(1);
+            filter: grayscale(0) brightness(1);
+  }
 }
 /*# sourceMappingURL=style.css.map */

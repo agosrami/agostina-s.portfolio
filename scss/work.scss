@@ -11,15 +11,29 @@
   }
   
   a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+  }
+
+  p {
+    color: white;
+  }
+
+  h2 {
+    color: white;
   }
   
   /*BOOSTRAP*/
+
+  .fondo_imagen {
+    background-color: rgb(22, 22, 22);
+    
+  }
+
   .header {
     margin-bottom: 4rem;
     height: 2rem;
-    margin-top: 4rem;
+    padding-top: 4rem;
     margin-left: 0%;
   }
   
@@ -34,6 +48,7 @@
 
   .inicio {
       margin-bottom: 2rem;
+      padding-top: 5rem;
         .inicio__titulo {
             color: rgb(97, 52, 202);
             text-transform: uppercase;
@@ -42,7 +57,7 @@
             text-transform: lowercase;
         }
         .inicio__subtitulo {
-            color: black;
+            color: rgb(255, 255, 255);
             text-transform: initial;
         }
   }
@@ -79,20 +94,10 @@
   }
   
   .footer {
-    background-color: black;
     margin-top: 5rem;
-    padding: 1rem;
-
-    p, a, i{
-        color: #686868; 
-    }
-
-    p, a {
-      margin-left: 8.3rem; 
-    }
-
-    a:hover {
-        color: #613de4;
+    color: rgb(124, 124, 124);
+    p {
+      color:rgb(124, 124, 124);
     }
   }
 

@@ -10,15 +10,27 @@ li {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
+p {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
 /*BOOSTRAP*/
+.fondo_imagen {
+  background-color: #161616;
+}
+
 .header {
   margin-bottom: 4rem;
   height: 2rem;
-  margin-top: 4rem;
+  padding-top: 4rem;
   margin-left: 0%;
 }
 
@@ -32,6 +44,7 @@ a {
 
 .inicio {
   margin-bottom: 2rem;
+  padding-top: 5rem;
 }
 
 .inicio .inicio__titulo {
@@ -44,7 +57,7 @@ a {
 }
 
 .inicio .inicio__subtitulo {
-  color: black;
+  color: white;
   text-transform: initial;
 }
 
@@ -86,20 +99,11 @@ a {
 }
 
 .footer {
-  background-color: black;
   margin-top: 5rem;
-  padding: 1rem;
+  color: #7c7c7c;
 }
 
-.footer p, .footer a, .footer i {
-  color: #686868;
-}
-
-.footer p, .footer a {
-  margin-left: 8.3rem;
-}
-
-.footer a:hover {
-  color: #613de4;
+.footer p {
+  color: #7c7c7c;
 }
 /*# sourceMappingURL=work.css.map */
