@@ -106,20 +106,7 @@ a {
 }
 
 .footer {
-  background-color: black;
-  padding: 1rem;
-}
-
-.footer p, .footer a, .footer i {
-  color: #686868;
-}
-
-.footer p, .footer a {
-  margin-left: 8.3rem;
-}
-
-.footer a:hover {
-  color: #613de4;
+  color: #7c7c7c;
 }
 
 .cajas_inicio {
