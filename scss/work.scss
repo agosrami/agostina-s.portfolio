@@ -11,22 +11,22 @@
   }
   
   a {
-    color: rgb(255, 255, 255);
+    color: rgb(22, 22, 22);
     text-decoration: none;
   }
 
   p {
-    color: white;
+    color: rgb(22, 22, 22);
   }
 
   h2 {
-    color: white;
+    color: rgb(22, 22, 22);
   }
   
   /*BOOSTRAP*/
 
   .fondo_imagen {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(231, 226, 240);
     
   }
 
@@ -49,17 +49,24 @@
   .inicio {
       margin-bottom: 2rem;
       padding-top: 5rem;
-        .inicio__titulo {
-            color: rgb(97, 52, 202);
-            text-transform: uppercase;
-        }
-        .inicio__descripcion {
-            text-transform: lowercase;
-        }
+      display: grid;
+        
         .inicio__subtitulo {
-            color: rgb(255, 255, 255);
+            color: rgb(22, 22, 22);
             text-transform: initial;
+            margin-bottom: 2rem;
         }
+
+        .inicio_parrafo {
+          font-size: 1.5rem;
+        }
+  }
+
+  hr {
+    color: rgb(0, 0, 0);
+    width: 50%; 
+    margin: 0 25% 0 25%;
+    margin-top: 2.2rem;
   }
 
   .años {
@@ -78,26 +85,45 @@
         }
   }
 
-  .cards {
-      margin-bottom: 2rem;
+  .formacion_complementaria {
+    padding-top: 5rem;    
   }
 
-  .info {
-      margin-top: 30px;
-        .info__titulo {
-            text-transform: initial;
-            color: black;
-        }
-        .info__titulo:hover {
-            color: #613de4;
-        }
+  .formacion_contenido {
+    display: grid;
+    grid-template-columns: 41.5vw 1vw;
+    margin-top: 3rem;
+    
+    .parrafo_formacion {
+      color: rgb(22, 22, 22);
+      margin-left: 7rem;
+      width: 23vw;
+  
+    }
+
+    .cuadro_formacion {
+      width: 36vw;
+    }
   }
+  
+  tr {
+    height: 5rem;
+    color: rgb(22, 22, 22);
+    
+  }
+
+  th {
+    width: 6rem;
+  }
+
+ 
+  
   
   .footer {
     margin-top: 5rem;
-    color: rgb(124, 124, 124);
+    color: rgb(236, 235, 235);
     p {
-      color:rgb(124, 124, 124);
+      color:rgb(235, 235, 235);
     }
   }
 

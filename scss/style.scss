@@ -37,14 +37,20 @@
 
   .inicio {
         .inicio__titulo {
-            color: rgb(0, 0, 0);
-            font-size: 7rem;
+            color:  rgb(0, 0, 0);
+            font-size: 8.2vw;
             font-weight: bolder;
             text-transform: uppercase;
             text-align: end;
             padding-right: 3.2rem;
             margin-top: 7rem;
             margin-bottom: 1px;
+        }
+
+      
+
+        a:hover {
+          color:#202020;
         }
 
         .inicio__descripcion {
@@ -73,15 +79,15 @@
 
   .hola_works {
     display: grid;
-    grid-template-columns: 6px 100px;
+    grid-template-columns: 6vw 100vw;
 
     margin-bottom: 3rem;
     .hola_titulo {
-      font-size: 6.3rem;
+      font-size: 7.4vw;
       font-weight: bold;
       margin-bottom: 0%;
       color: #2b2b2b;
-      padding-left: 34.2rem;
+      padding-left: 42vw;
     }
   }
 
@@ -106,12 +112,12 @@
   }
 
   .footer {
-    color: rgb(124, 124, 124);
+    color: rgb(255, 255, 255);
   }
 
   .cajas_inicio {
     display: grid;
-    grid-template-columns: 665px 100px;
+    grid-template-columns: 57.3vw 1vw;
     margin-top: 8rem;
 
     .hola_mundo {
@@ -119,18 +125,18 @@
       color: #000000;
       font-weight: bolder;
       text-align: left;
-      font-size: 17px;
+      font-size: 1.1em;
     }
 
     .hola_mundo02 {
-      width: 400px;
+      width: 20vw;
       color: #000000;
       font-weight: bolder;
       text-align: end;
     }
 
     .hola_mundo03 {
-      width: 300px;
+      width: 20vw;
       color: #000000;
       font-weight: normal;
       text-align: left;

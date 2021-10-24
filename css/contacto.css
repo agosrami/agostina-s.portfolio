@@ -20,13 +20,11 @@
 }
 
 .banner {
-  margin-left: -40px;
   margin-top: 4rem;
 }
 
 .banner .titulo_informacion {
   margin-left: 15px;
-  font-weight: bold;
   color: #000000;
 }
 
@@ -40,6 +38,10 @@ a {
 }
 
 /*BOOSTRAP*/
+.footer {
+  color: #dbdbdb;
+}
+
 .parte_arriba {
   margin-bottom: 3rem;
   height: 2rem;
@@ -103,10 +105,6 @@ a {
 
 .info .info__titulo:hover {
   color: #613de4;
-}
-
-.footer {
-  color: #7c7c7c;
 }
 
 .cajas_inicio {

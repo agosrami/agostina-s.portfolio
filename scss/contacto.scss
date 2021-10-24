@@ -20,11 +20,10 @@
   }
   
   .banner {
-    margin-left: -40px;
+
     margin-top: 4rem;
     .titulo_informacion {
       margin-left: 15px;
-      font-weight: bold;
       color:#000000;
     }
   }
@@ -39,6 +38,12 @@
   }
   
   /*BOOSTRAP*/
+
+  .footer {
+    color: rgb(219, 219, 219);
+  }
+
+  
   .parte_arriba {
     margin-bottom: 3rem;
     height: 2rem;
@@ -108,10 +113,7 @@
             color: #613de4;
         }
   }
-  
-  .footer {
-    color: rgb(124, 124, 124);
-  }
+
 
   .cajas_inicio {
     display: grid;
